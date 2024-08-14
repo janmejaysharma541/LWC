@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="wired services ">
+        <div style="height: 300px;">
+            <lightning-datatable
+                    key-field="id"
+                    data={getAccounts.data}
+                    columns={displayColumns}>
+            </lightning-datatable>
+        </div> 
+    </lightning-card>
+</template>
